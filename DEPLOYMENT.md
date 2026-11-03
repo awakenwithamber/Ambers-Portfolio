@@ -3,17 +3,13 @@
 Nothing here requires a paid plan. All placeholders are marked `REPLACE-WITH-*`;
 this project ships with **no real account IDs, database IDs, tokens, or domains**.
 
-## A. GitHub steps (Amber)
-1. Create a new GitHub repository (suggested name: `amber-patten-portfolio`). Do **not** add a README — this repo already has one.
-2. From this project folder:
-   ```bash
-   git init && git add . && git commit -m "Production portfolio — Cloudflare Workers + D1"
-   git branch -M main
-   git remote add origin https://github.com/<YOUR-GITHUB-USERNAME>/amber-patten-portfolio.git
-   git push -u origin main
-   ```
-   (Or upload the folder through the GitHub web UI — same result.)
-3. There is intentionally **no** GitHub Actions workflow in this repo: Cloudflare deploys the Worker. No GitHub Pages, no Netlify.
+## A. GitHub — DONE (2026-11-03, by Muse via the GitHub connector)
+- Repository: **github.com/awakenwithamber/Ambers-Portfolio** (her existing canonical portfolio repo — reused, not duplicated).
+- New branch: **`cloudflare-production`** — the full project was pushed there in 4 verified batches; legacy Pages-era files (root `index.html`, `assets/*.svg`) were removed from this branch only.
+- **`main` was not touched** — the live GitHub Pages site keeps running until Cloudflare cutover is approved.
+- Creating a brand-new repository through the connector was attempted and is blocked by the GitHub App's permissions (403 "Resource not accessible by integration"), which is why the existing repo + branch route was used.
+- Note: the appendix PPTX in `deck-pack/` is binary and is **not** in GitHub (the connector carries text only); it lives in the workspace and in Amber's files.
+- There is intentionally **no** GitHub Actions workflow: Cloudflare deploys the Worker. No GitHub Pages workflow on this branch, no Netlify.
 
 ## B. Cloudflare steps (Amber)
 You need: a free Cloudflare account. A custom domain is optional — you can launch on the free `*.workers.dev` subdomain first.
