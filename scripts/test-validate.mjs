@@ -1,0 +1,12 @@
+import { sanitizeLead, validateLead } from "../src/validate.js";
+import assert from "node:assert";
+const good = sanitizeLead({ name: " Test User ", email: "TEST@Example.com", message: "I need a growth system built.", consent: true });
+assert.equal(good.email, "test@example.com");
+assert.deepEqual(validateLead(good), []);
+const noConsent = sanitizeLead({ name: "A", email: "a@b.com", message: "hello world test" });
+assert.ok(validateLead(noConsent).includes("consent is required"));
+const badEmail = sanitizeLead({ name: "A", email: "nope", message: "hello world test", consent: true });
+assert.ok(validateLead(badEmail).length > 0);
+const bot = sanitizeLead({ name: "Bot", email: "b@b.com", message: "spam spam spam", consent: true, fax_number: "filled" });
+assert.ok(validateLead(bot).includes("spam_detected"));
+console.log("Validation tests PASS (4 cases)");
