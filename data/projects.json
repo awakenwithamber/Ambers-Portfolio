@@ -1,0 +1,229 @@
+{
+  "_instructions": "EDITABLE SOURCE OF TRUTH. Fill role, dates, responsibilities, deliverables, screenshots, URLs, outcomes and testimonials here as real evidence arrives. Never invent values. evidenceLabel must be one of: VERIFIED, PORTFOLIO-RECORDED, STATED, ILLUSTRATIVE. Category must be one of: founder, team-project, project-experience, professional-experience.",
+  "_teamProjectNote": "CORRECTED 2026-11-03 after evidence review: the nine names are software platforms, tools and brands Amber has USED (owner-confirmed decision 2026-10-12; evidence sweep found zero employment/consulting evidence for any of them in Drive, Gmail or her resumes). They must NEVER be presented as employers, clients, partners, employment, consulting or project experience.",
+  "projects": [
+    {
+      "category": "professional-experience",
+      "challenge": "A newly opened self-pay specialty practice needed a direct-to-patient acquisition channel in addition to physician referrals, plus working operations, scheduling, referral and testing-coordination systems.",
+      "dates": null,
+      "id": "fnsm",
+      "implementation": [
+        "Operations and administrative systems",
+        "Patient communication and scheduling",
+        "Referrals and diagnostic testing coordination",
+        "Website and SEO work",
+        "Business listings and reputation management",
+        "Content distribution",
+        "Workflow development",
+        "Direct-to-patient acquisition channel"
+      ],
+      "liveUrl": null,
+      "location": "Murray, Utah",
+      "repoUrl": null,
+      "results": [
+        {
+          "evidenceLabel": "PORTFOLIO-RECORDED",
+          "label": "professional/business profiles audited, corrected or optimized",
+          "value": "200+"
+        },
+        {
+          "evidenceLabel": "PORTFOLIO-RECORDED",
+          "label": "relevant groups, pages, directories and social channels carrying content/distribution",
+          "value": "2,000+"
+        },
+        {
+          "evidenceLabel": "PORTFOLIO-RECORDED",
+          "label": "sustained inbound website calls",
+          "value": "3–5 / day"
+        },
+        {
+          "evidenceLabel": "PORTFOLIO-RECORDED",
+          "label": "recorded website visitors after the ecosystem was connected",
+          "value": "5,000+ / day"
+        },
+        {
+          "evidenceLabel": "PORTFOLIO-RECORDED",
+          "label": "newly opened self-pay specialty practice reached profitability, per portfolio records",
+          "value": "Under 6 months"
+        }
+      ],
+      "roleLabel": "Operations, Digital Growth & Administrative Systems",
+      "screenshots": [
+        {
+          "alt": "Reconstructed demo of a fragmented digital presence before the ecosystem was connected",
+          "evidenceLabel": "ILLUSTRATIVE",
+          "kind": "before",
+          "src": "/assets/before-demo.svg"
+        },
+        {
+          "alt": "Reconstructed demo of a connected growth ecosystem",
+          "evidenceLabel": "ILLUSTRATIVE",
+          "kind": "after",
+          "src": "/assets/after-demo.svg"
+        },
+        {
+          "alt": "Illustrative reconstruction using recorded portfolio outcomes — not an analytics-platform export",
+          "evidenceLabel": "ILLUSTRATIVE",
+          "kind": "analytics",
+          "src": "/assets/analytics-demo.svg"
+        }
+      ],
+      "strategy": "Connect the full digital ecosystem — website/SEO, business profiles, listings, reputation, content distribution and patient journeys — to the practice's operational workflows.",
+      "technologies": [],
+      "testimonial": null,
+      "title": "Functional Neurology & Sleep Medicine",
+      "verificationSource": "Portfolio records supplied by Amber Patten. Metrics are portfolio-recorded, not externally verified analytics."
+    },
+    {
+      "category": "founder",
+      "challenge": null,
+      "dates": null,
+      "id": "awaken-with-amber-llc",
+      "implementation": [
+        "Technology",
+        "AI workflows",
+        "Web development",
+        "Marketing",
+        "E-commerce",
+        "Product development",
+        "Operations",
+        "Customer experience"
+      ],
+      "liveUrl": null,
+      "location": "Salt Lake City, Utah",
+      "repoUrl": null,
+      "results": [],
+      "roleLabel": "Founder / Owner",
+      "screenshots": [],
+      "strategy": null,
+      "technologies": [],
+      "testimonial": null,
+      "title": "Awaken With Amber LLC",
+      "verificationSource": "Founder/owner project per source material supplied by Amber Patten."
+    },
+    {
+      "category": "founder",
+      "challenge": null,
+      "dates": null,
+      "id": "awakenagain",
+      "implementation": [
+        "Product catalog",
+        "E-commerce",
+        "Memberships",
+        "Living Grimoire",
+        "Customer accounts",
+        "Checkout",
+        "Guided customer journeys",
+        "Quizzes",
+        "Content",
+        "Administration",
+        "SEO",
+        "Automation",
+        "Product development",
+        "Customer experience"
+      ],
+      "liveUrl": null,
+      "location": null,
+      "repoUrl": null,
+      "results": [],
+      "roleLabel": "Founder / Owner",
+      "screenshots": [],
+      "strategy": null,
+      "technologies": [],
+      "testimonial": null,
+      "title": "AwakenAgain.com / Amber's Alchemy Apothecary",
+      "verificationSource": "Founder/owner project per source material supplied by Amber Patten."
+    },
+    {
+      "category": "founder",
+      "challenge": null,
+      "dates": null,
+      "id": "limitless-ecoliving",
+      "implementation": [
+        "Resilient housing",
+        "Renewable energy",
+        "Regenerative agriculture",
+        "Water conservation",
+        "Community systems",
+        "Wellness",
+        "Education",
+        "Local enterprise",
+        "Sustainable development"
+      ],
+      "liveUrl": null,
+      "location": null,
+      "repoUrl": null,
+      "results": [],
+      "roleLabel": "Founder-led",
+      "screenshots": [],
+      "strategy": null,
+      "technologies": [],
+      "testimonial": null,
+      "title": "Limitless EcoLiving Communities Inc.",
+      "verificationSource": "Founder-led project per source material supplied by Amber Patten."
+    },
+    {
+      "category": "founder",
+      "challenge": null,
+      "dates": null,
+      "id": "identity-orchestrator",
+      "implementation": [
+        "Identity-data consistency",
+        "Privacy",
+        "Automation",
+        "Access controls",
+        "Auditability",
+        "KYC/AML considerations",
+        "Fraud prevention",
+        "Structured identity data"
+      ],
+      "liveUrl": null,
+      "location": null,
+      "repoUrl": null,
+      "results": [],
+      "roleLabel": "Systems Concept — Founder/Owner Project",
+      "screenshots": [],
+      "strategy": null,
+      "technologies": [],
+      "testimonial": null,
+      "title": "Identity Consistency & Verification Orchestrator",
+      "verificationSource": "Systems concept per source material supplied by Amber Patten."
+    },
+    {
+      "category": "project-experience",
+      "challenge": null,
+      "dates": null,
+      "id": "st-josephine-mines",
+      "implementation": [
+        "Marketing",
+        "Administration",
+        "Tour-related work",
+        "Communications",
+        "Business-development support"
+      ],
+      "liveUrl": null,
+      "location": "Utah",
+      "repoUrl": null,
+      "results": [],
+      "roleLabel": "Project Experience — Marketing, Administration, Communications & Business Development Support",
+      "screenshots": [],
+      "strategy": null,
+      "technologies": [],
+      "testimonial": null,
+      "title": "St. Josephine Mines / Hoyt Peak",
+      "verificationSource": "Project experience per Amber Patten. Disputed treasure, ownership, mining, historical or geological claims are NOT stated as established facts."
+    }
+  ],
+  "platformsUsed": [
+    "Vanta",
+    "Webflow",
+    "Kit",
+    "Podia",
+    "Carrd",
+    "Empire Flippers",
+    "BarkBox",
+    "Function of Beauty",
+    "Death Wish Coffee"
+  ],
+  "_platformsUsedMeaning": "Platform / Tool I've Used — stack transparency only."
+}

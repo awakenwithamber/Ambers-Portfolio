@@ -1,0 +1,28 @@
+name = "amber-patten-portfolio"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# Cloudflare Workers + Static Assets architecture (NOT Pages, NOT Netlify)
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "404-page"
+
+[vars]
+# Replace with your real production origin before deploy, e.g. https://your-domain.example
+SITE_URL = "https://REPLACE-WITH-YOUR-DOMAIN"
+NOTIFY_EMAIL = "amber@awakenagain.com"
+# Notification sending activates only when BOTH are set as secrets:
+#   wrangler secret put RESEND_API_KEY
+#   wrangler secret put MAIL_FROM   (a sender address on a Resend-verified domain)
+
+[[d1_databases]]
+binding = "DB"
+database_name = "amber-portfolio"
+# Replace after: wrangler d1 create amber-portfolio
+database_id = "REPLACE-WITH-YOUR-D1-DATABASE-ID"
+migrations_dir = "migrations"
+
+[triggers]
+# Daily scheduled portfolio checks (broken links / sitemap / robots) — see docs/AUTOMATION.md
+crons = ["0 13 * * *"]
